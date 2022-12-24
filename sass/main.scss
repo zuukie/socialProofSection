@@ -159,11 +159,10 @@ main {
 
 @media (min-width: 1200px) {
 	body {
-		padding: 65px 130px;
+		padding: 100px 200px;
 		height: 100vh;
 		background-size: 42%, 60%;
 		background-position: 0 0, 50% 100%;
-		transform: scale(1.1);
 		overflow: hidden;
 	}
 	header {
@@ -209,9 +208,10 @@ main {
 		.card {
 			margin: 0;
 			width: 100%;
+			max-width: 350px;
 			height: 210px;
 			p {
-				line-height: 15px;
+				line-height: 20px;
 			}
 		}
 		.first {
